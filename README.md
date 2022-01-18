@@ -96,6 +96,7 @@ Note that **you don't need to execute the functions yourself**, the tests are re
 
 Implement the function `maxOfTwoNumbers` that takes two numbers as arguments and returns the largest.
 
+
 <br>
 
 ### Iteration #2: Find the longest word
