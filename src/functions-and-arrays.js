@@ -144,7 +144,7 @@ function uniquifyArray(wordsArray) {
 const wordsFind = ['machine', 'subset', 'trouble', 'starting', 'matter', 'eating', 'truth', 'disobedience'];
 
 function doesWordExist(wordArray, word) {
-  if(!wordArray.length)
+  if(!wor+dArray.length)
   return null;
   let result = false;
   for(value of wordArray){
@@ -177,11 +177,12 @@ function howManyTimes(wordArray,word) {
 
   if(!wordArray.length)
   return 0;
+
   let num = 0;
   for(value of wordArray){
     if(value === word){
-    num += 1;
-    }
+    num ++;
+    }8
   }
   return num;
 }
